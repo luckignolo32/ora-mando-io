@@ -21,11 +21,12 @@ When you hit **Send** in your mailbox, a dramatic banner appears with sound, jus
 ---
 
 ## 🚀 Features
-- 📨 Works on **Gmail**, **Outlook**, **Proton**
+- 📨 Works on **Gmail**, **Outlook**, **Proton**, **AOL**
 - 📜 Elden Ring–style banner on email sent  
 - 🎵 Sound effect included  
 - 🗡 Custom medieval-style icon
 - 🎨 Choose the color of your banner
+- ⌨️ Supports keyboard shortcuts: **Cmd+Enter** (Mac) / **Ctrl+Enter** (Windows/Linux)
 
 ---
 
@@ -78,8 +79,7 @@ As promised, now the extension supports the following languages for the Send but
 |:-----------|:-----------|:-----------|:-----------|
 | 🇰🇷 Korean: `보내기`  | 🇪🇸 Spanish: `Enviar` | 🇩🇪 German: `Senden` | 🇫🇷 French: `Envoyer` |
 | 🇷🇺 Russian: `Отправить` | 🇸🇦 Arabic: `إرسال` | 🇹🇭 Thai: `ส่ง` | 🇸🇪 Swedish: `Skicka` |
-| 🇳🇴 Norwegian: `Sendt` | 🇻🇳 Vietnamese: `Gửi` | 🇺🇦 Ukrainian: `Надіслати` | 🇨🇿 Czech: `Odeslán` |
-
+| 🇳🇴 Norwegian: `Sendt` | 🇻🇳 Vietnamese: `Gửi` | 🇺🇦 Ukrainian: `Надіслати` | 🇨🇿 Czech: `Odeslán` || 🇵🇱 Polish: `Wyślij` | 🇹🇷 Turkish: `Gönder` | 🇫🇮 Finnish: `Lähetä` | |
 
 If your language isn’t listed or it's not the right word in your system, don't hesitate to contact me, I will add it in the next update!
 
