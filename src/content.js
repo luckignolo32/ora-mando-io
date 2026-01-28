@@ -7,7 +7,7 @@ const storage = (typeof browser !== "undefined") ? browser.storage : chrome.stor
 const soundUrl = chrome.runtime.getURL("assets/elden_ring_sound.mp3");
 
 // keywords for "Send" in various languages
-const keywords = ["Invia","Send","傳送","发送","送信","보내기","Enviar","Senden","Envoyer","Отправить","إرسال","ส่ง","Skicka","Sendt", "Gửi", "Надіслати", "Odeslán"];
+const keywords = ["Invia","Send","傳送","发送","送信","보내기","Enviar","Senden","Envoyer","Отправить","إرسال","ส่ง","Skicka","Sendt", "Gửi", "Надіслати", "Odeslán", "Wyślij", "Gönder", "Lähetä"];
 
 // default settings
 let soundEnabled = true;
@@ -175,3 +175,13 @@ const aolObserver = new MutationObserver(() => {
   });
 });
 aolObserver.observe(document.body, { childList: true, subtree: true });
+
+
+// Keyboard shortcut listener: Cmd+Enter (Mac) or Ctrl+Enter (Windows/Linux)
+document.addEventListener('keydown', (e) => {
+  // Check if Cmd+Enter (Mac) or Ctrl+Enter (Windows/Linux) is pressed
+  if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+    console.log("Send shortcut detected (Cmd/Ctrl+Enter)");
+    setTimeout(showEldenRingBanner, 500);
+  }
+});
