@@ -5,14 +5,19 @@
   "author": "Anna Mettifogo",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "clean": "rm -rf dist web-ext-artifacts",
-    "build:chromium": "mkdir -p dist/chromium && cp -r src/* dist/chromium && cp manifest_chrome.json dist/chromium/manifest.json",
-    "build:firefox": "mkdir -p dist/firefox && cp -r src/* dist/firefox && cp manifest_firefox.json dist/firefox/manifest.json",
-    "build:all": "npm run build:chromium && npm run build:firefox",
+    "build:chromium": "cd src && find . -path ./__tests__ -prune -o -print | cpio -pdm ../dist/chromium && cd .. && cp manifest_chrome.json dist/chromium/manifest.json",
+    "build:firefox": "cd src && find . -path ./__tests__ -prune -o -print | cpio -pdm ../dist/firefox && cd .. && cp manifest_firefox.json dist/firefox/manifest.json",
+    "build:all": "npm run clean && npm run build:chromium && npm run build:firefox",
     "lint:firefox": "web-ext lint --source-dir=dist/firefox",
     "package:chromium": "npm run build:chromium && cd dist/chromium && zip -r ../../web-ext-artifacts/elden-email-chromium.zip . && cd ../..",
     "package:firefox": "npm run build:firefox && web-ext build --source-dir=dist/firefox --artifacts-dir=web-ext-artifacts"
   },
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "jest": "^27.5.1",
+    "jest-chrome": "^0.8.0",
+    "jest-environment-jsdom": "^27.5.1"
+  }
 }

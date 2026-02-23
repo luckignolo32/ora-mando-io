@@ -51,6 +51,10 @@ Icon?
 .idea/
 *.iml
 
+# Test files
+jest.config.js
+src/__tests__/
+
 # Node modules (if using JS tools)
 node_modules/
 

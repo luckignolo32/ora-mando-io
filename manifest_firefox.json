@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Elden Email",
-  "version": "1.1.2",
-  "description": "Shows an Elden Ring banner when you send an email",
+  "name": "Ora mando io",
+  "version": "0.1.0",
+  "description": "mostra un'immagine di Jok3r con su scritto ORA MANDO IO quando viene inviata su una mail. Basato su Elden Email (Chrome: https://chromewebstore.google.com/detail/elden-email/bjaildeadgclghcjhocdbginfpjihmgm, Firefox: https://addons.mozilla.org/en-US/firefox/addon/elden-email/)",
   "permissions": ["storage", "activeTab", "scripting"],
   "browser_action": {
     "default_popup": "popup.html",
@@ -13,12 +13,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://mail.google.com/*",
-        "https://outlook.office.com/*",
-        "https://outlook.live.com/*",
-        "https://outlook.office365.com/*",
-        "https://mail.proton.me/*",
-        "https://mail.aol.com/*"
+        "https://mail.google.com/*"
       ],
       "js": ["content.js"],
       "css": ["style.css"],
@@ -29,10 +24,7 @@
     "48": "assets/icon.png"
   },
   "web_accessible_resources": [
-    "assets/email_sent_yellow.png",
-    "assets/email_sent_blue.png",
-    "assets/email_sent_red.png",
-    "assets/elden_ring_sound.mp3",
-    "assets/Matinia.otf"
+    "assets/jok3r.png",
+    "assets/ora_parlo_io.mp3"
   ]
 }

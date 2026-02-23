@@ -1,7 +1,7 @@
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue?style=for-the-badge&logo=creative-commons&logoColor=white)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-# 📜 _Email Sent_ - Elden Ring Extension
-An Elden Ring–inspired Web extension that makes sending emails more epic.  
+# 📜 _Email Sent_ - Ora mando io
+An Ora mando io–inspired Web extension that makes sending emails more epic.  
 When you hit **Send** in your mailbox, a dramatic banner appears with sound, just like in the Lands Between. ⚔️
 
 ---
@@ -22,7 +22,7 @@ When you hit **Send** in your mailbox, a dramatic banner appears with sound, jus
 
 ## 🚀 Features
 - 📨 Works on **Gmail**, **Outlook**, **Proton**, **AOL**
-- 📜 Elden Ring–style banner on email sent  
+- 📜 Ora mando io–style banner on email sent  
 - 🎵 Sound effect included  
 - 🗡 Custom medieval-style icon
 - 🎨 Choose the color of your banner
@@ -37,7 +37,7 @@ When you hit **Send** in your mailbox, a dramatic banner appears with sound, jus
 ## 🔧 Installation
 
 > ⚠️ **Recommended:**  
-> You can easily install Elden Email directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/elden-email/bjaildeadgclghcjhocdbginfpjihmgm) or other browser extension stores. 
+> You can easily install Ora mando io directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/elden-email/bjaildeadgclghcjhocdbginfpjihmgm) or other browser extension stores. 
 > This way, you’ll automatically receive updates and bug fixes.
 
 > **Manual installation (not recommended):**  
@@ -87,30 +87,30 @@ If your language isn’t listed or it's not the right word in your system, don't
 
 ## 🖥️ Browser Compatibility & Installation
 
-Elden Email is designed to work not only on Chrome, but also on the most popular browsers thanks to their support for Chrome extensions and the WebExtensions standard.
+Ora mando io is designed to work not only on Chrome, but also on the most popular browsers thanks to their support for Chrome extensions and the WebExtensions standard.
 
 ### 🌐 Chrome
-- **Recommended:** Search for “Elden Email” on the Chrome Web Store and install in one click.
+- **Recommended:** Search for “Ora mando io” on the Chrome Web Store and install in one click.
 - **Manual:** See instructions above, but the official store version is preferred for automatic updates.
 
 ### 🌀 Edge
 - **Compatibility:** Microsoft Edge supports Chrome extensions almost 100%.
 - **How to Install:**  
   - Visit [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons).
-  - Search for “Elden Email” and install directly from the store.
+  - Search for “Ora mando io” and install directly from the store.
 
 ### 🔴 Opera
 - **Compatibility:** Opera supports Manifest V2/V3 extensions.
 - **How to Install:**  
   - Go to [Opera Add-ons](https://addons.opera.com).
-  - Search for “Elden Email” and install from the store.
+  - Search for “Ora mando io” and install from the store.
 
 ### 🦊 Firefox
 - **Compatibility:** Firefox uses the “WebExtensions” system, very similar to Chrome’s.  
 
 - **How to Install from the Store:**  
   - Visit [Firefox Add-ons](https://addons.mozilla.org).  
-  - Search for “Elden Email” and install it directly from the store.  
+  - Search for “Ora mando io” and install it directly from the store.  
 
 - **How to Test or Build Locally:**  
   - Go to the `src/` folder of the project (this contains all source files).  
@@ -131,7 +131,7 @@ Elden Email is designed to work not only on Chrome, but also on the most popular
 ### 🦁 Brave, Vivaldi, and other Chromium Browsers
 - **Compatibility:** Full support for Chrome extensions.
 - **How to Install:**  
-  - Search for “Elden Email” on the Chrome Web Store and install directly.
+  - Search for “Ora mando io” on the Chrome Web Store and install directly.
   - No manual installation required.
 
 
@@ -147,7 +147,7 @@ You may need to refresh the page when you leave it open for a long time before i
 ---
 
 ## 🛡️ Privacy
-Elden Email does **not** collect, transmit, or share any personal information.  
+Ora mando io does **not** collect, transmit, or share any personal information.  
 User preferences for banner color and sound are saved only locally (using Chrome storage).  
 No email contents, personal data, or browsing history are accessed or stored.
 
